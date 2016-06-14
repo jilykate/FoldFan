@@ -1,0 +1,25 @@
+.trans-03{transition :all 0.3s ease-in-out;}
+.trans-05{transition :all 0.5s ease-in-out;}
+.trans-08{transition :all 0.8s ease-in-out;}
+
+li{list-style-type: none;}
+
+html,body{width:100%; height:100%; margin:0; padding:0;}
+ul{margin:0; padding:0;}
+
+.container{
+	width:100%;
+	height:100%;
+}
+
+.container .section-list{width:100%; height:100%;}
+.container .section-list .section{width:25%; height:100%; float:left;}
+.container .section-list .section:nth-child(0){background:#aaa;}
+.container .section-list .section:nth-child(1){background:#bbb;}
+.container .section-list .section:nth-child(2){background:#ccc;}
+.container .section-list .section:nth-child(3){background:#ddd;}
+
+.container .section-list .section.expand{width:31%;}
+.container .section-list .section.shrink{width:23%;}
+.container .section-list.open .section.minify{width:5%;}
+.container .section-list.open .section.active{width:85%;}
