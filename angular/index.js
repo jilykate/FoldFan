@@ -3,20 +3,16 @@ var myapp = angular.module('myapp', []);
 myapp.controller('sectionListController', ['$scope','$element',function sectionListController($scope,$element) {
   $scope.sections = [
     {
-      name: 'Section A',
-      snippet: 'Fast just got faster with Nexus S.'
+      name: 'Section A'
     },
     {
-      name: 'Section B',
-      snippet: 'The Next, Next Generation tablet.'
+      name: 'Section B'
     },
     {
-      name: 'Section C',
-      snippet: 'The Next, Next Generation tablet.'
+      name: 'Section C'
     },
     {
-      name: 'Section D',
-      snippet: 'The Next, Next Generation tablet.'
+      name: 'Section D'
     }
   ];
 }])
